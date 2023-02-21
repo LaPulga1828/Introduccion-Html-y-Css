@@ -1,0 +1,58 @@
+main
+{
+    background-color: blueviolet;
+}
+p
+{
+    color: blue;
+    font-size: 29;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1
+{
+    color: aqua;
+    font-size: medium;
+}
+
+/* Clases*/
+
+.main-nav
+{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: fuchsia;
+}
+
+.main-nav__item
+{
+    display: inline-block;
+}
+
+.main-nav__item a
+{
+    color: chocolate;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* Pseudoclases*/
+
+.main-nav__item a:hover
+{
+    color: deepskyblue;
+}
+
+.main-nav__item a:active
+{
+    color: black;
+}
+
+/* Pseudoelemento*/
+
+.main-nav__item a::after
+{
+    content: " | ";
+}

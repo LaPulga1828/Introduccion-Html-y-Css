@@ -1,0 +1,33 @@
+*
+{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 62.5%;/*equivale a diez pixeles*/
+}
+
+.parent
+{
+    border: 2px purple dotted;
+    display: inline-block;
+
+}
+
+.box
+{
+    display: inline-block;
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+}
+
+#two
+{
+    background-color: yellow;
+    position: absolute;
+    height: 50px;
+}

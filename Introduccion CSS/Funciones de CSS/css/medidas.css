@@ -1,0 +1,48 @@
+*
+{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 62.5%;/*equivale a diez pixeles*/
+}
+
+/*p
+{
+    font-size: 10px;
+}
+
+main
+{
+    background-color: darkmagenta;
+    width: 500px;
+    height: 500px;
+}
+
+.text-container
+{
+    font-size: 1.5em;
+}
+
+body
+{
+    font-size: 20px;
+}*/
+
+html
+{
+    font-size: 62.5%;/*equivale a diez pixeles*/
+}
+
+p
+{
+    font-size: 1.6rem;/*16px*/
+}
+
+main div
+{
+    font-size: 1.6rem;
+}

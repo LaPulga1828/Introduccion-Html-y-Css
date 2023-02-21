@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Datos Personales</title>
+</head>
+<body>
+    <h1>Datos Personales</h1>
+        <form action="">
+            <label for="nombre y apellido">
+                <span>Nombre y Apellido</span>
+                <br>
+                
+                <input type="text" id="1nombre" name="1nombre" placeholder="Primer Nombre"autocomplete="name" required>
+                <input type="text" id="2nombre" name="2nombre" placeholder="Segundo Nombre"autocomplete="name"required>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellidos" autocomplete="name" required>
+            </label>
+            <br>
+            <hr>
+            <label for="Direccion">
+                <span>Direccion</span>
+                <br>
+
+                <input type="text" id="direccion" name="direccion" placeholder="direccion"autocomplete="name" required>
+                <input type="text" id="localidad" name="localidad" placeholder="Barrio"autocomplete="name"required>
+                <input type="text" id="ciudad" name="ciudad" placeholder="ciudad"autocomplete="name"required>
+                <input type="text" id="departamento" name="departamento" placeholder="departamento"autocomplete="name"required>    
+            </label>
+            <br>
+            <hr>
+            <label for="Edad">
+                <span>¿En que horario estudias?</span>
+                <input type="time" id="horario" name="hora">
+            </label>
+            <br>
+            <hr>
+            <select name="materias" id="">
+                <option value="Practica">Practica</option>
+                <option value="Teoria">Teoria</option>
+                <option value="Telematica">Telematica</option>
+            </select>
+            <br>
+            <hr>
+            <input list="materias">
+            <datalist id="materias">
+                <option value="Practica">Practica</option>
+                <option value="Teoria">Teoria</option>
+                <option value="Telematica">Telematica</option>
+            </datalist>
+            <br>
+            <hr>
+            <input type="submit" value="Enviar"><!--Solo para enviar datos de los formularios-->
+            <button>Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

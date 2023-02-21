@@ -1,0 +1,66 @@
+*
+{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 1.5rem;
+}
+
+.container
+{
+    border: 0.3rem solid purple;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box
+{
+    width: 10rem;
+    height: 10rem;
+    
+}
+
+.box1
+{
+    background-color: blue;
+    order: 3;
+    flex-grow: inherit initial ;
+    flex-basis: content ;
+}
+
+.box2
+{
+    background-color: blueviolet;
+}
+
+.box3
+{
+    background-color: brown;
+}
+
+.box4
+{
+    background-color: darkblue;
+}
+
+.box5
+{
+    background-color: cyan;
+}
+
+.box6
+{
+    background-color: darkcyan;
+}

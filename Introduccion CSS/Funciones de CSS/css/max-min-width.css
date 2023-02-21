@@ -1,0 +1,31 @@
+*
+{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 62.5%;/*equivale a diez pixeles*/
+}
+
+main
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rebeccapurple;
+}
+
+section
+{
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 328px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: chocolate;
+
+}
+

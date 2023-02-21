@@ -1,0 +1,18 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 75%; 
+    /*75% de pixeles de 16 pxeles quees el tamaño defaultde la fuente*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1
+{
+    font-size: inherit;
+}
